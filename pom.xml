@@ -15,7 +15,7 @@
         <spring-boot.version>3.2.6</spring-boot.version>
         <knife4j.version>4.3.0</knife4j.version>
         <langchain4j.version>1.0.0-beta3</langchain4j.version>
-        <mybatis-plus.version>3.5.11</mybatis-plus.version>
+        <mybatis-plus.version>3.5.3.1</mybatis-plus.version>
     </properties>
     <dependencies>
 
@@ -44,6 +44,11 @@
         <dependency>
             <groupId>dev.langchain4j</groupId>
             <artifactId>langchain4j</artifactId>
+        </dependency>
+        <!-- Spring Data Redis -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
     </dependencies>
 
